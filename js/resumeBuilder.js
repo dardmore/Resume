@@ -174,7 +174,7 @@ var projects = {
             "title": "RF",
             "dates": "June 2014 - Current",
             "description": "Designed and optimized the build out of coverage and capacity sites for the Philadelphia market.",
-            "images": "image/antenna.jpg"
+            "images": "images/antenna.jpg"
         }
     ],
     "display": function () {
@@ -187,7 +187,7 @@ var projects = {
                 $(".project-entry:last").append(projectTitle);
                 $(".project-entry:last").append(projectDate);
                 $(".project-entry:last").append(projectDescript);
-                if (projects.projects[myProject].images > 0) {
+                if (projects.projects[myProject].images.length > 0) {
                     var ProjectImage = HTMLprojectImage.replace("%data%", projects.projects[myProject].images);
                     $(".project-entry:last").append(ProjectImage);
                 }
