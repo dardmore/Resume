@@ -201,3 +201,4 @@ work.display();
 education.display();
 projects.display();
 $("#mapDiv").append(googleMap);
+$("#main").append(internationalizeButton);
