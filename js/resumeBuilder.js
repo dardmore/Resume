@@ -15,7 +15,6 @@ var bio = {
         "Web Developer"
     ],
     "biopic": "images/fry.jpg",
-//    "biopic": "http://placehold.it/100x200",
     "display": function () {
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
