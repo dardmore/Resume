@@ -1,0 +1,6 @@
+Resources Used:
+
+1. Piazza Posts
+2. GitHub Help Pages
+3. Google Maps JavaScript API v3
+4. http://blog.kevinchisholm.com/javascript/getting-started-with-the-google-maps-javascript-api-part-iii-adding-an-event-listener/
