@@ -172,6 +172,7 @@ function initializeMap() {
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
       var infoWindow = new google.maps.InfoWindow({
+        /* TODO: Add Work or School Content into infoWindow content */
         content: name
       })
     infoWindow.open(map, marker);
